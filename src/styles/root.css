@@ -1,0 +1,23 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary: #1890ff;
+  --danger: #f5222d;
+  --black-main: rgba(0, 0, 0, 0.85);
+  --black-divider: rgba(0, 0, 0, 0.1);
+  --black-secondary: rgba(0, 0, 0, 0.65);
+  --black-tertiary: rgba(0, 0, 0, 0.45);
+  --black-disabled: rgba(0, 0, 0, 0.25);
+  --black-border: rgba(0, 0, 0, 0.15);
+  --black-light-bg: rgba(0, 0, 0, 0.04);
+  --black-bg: rgba(0, 0, 0, 0.06);
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
