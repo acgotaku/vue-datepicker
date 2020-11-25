@@ -3,7 +3,7 @@ const path = require('path');
 const ICON_PATH = path.resolve(__dirname, 'src/assets/icons');
 
 module.exports = {
-  publicPath: process.env.ASSETS_PATH,
+  publicPath: '/vue-datepicker/',
   devServer: {
     host: '0.0.0.0',
     disableHostCheck: true,
