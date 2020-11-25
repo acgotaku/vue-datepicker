@@ -1,5 +1,9 @@
 # vue-datepicker
 
+## Demo
+
+https://acgotaku.github.io/vue-datepicker/
+
 ## Project setup
 
 ```

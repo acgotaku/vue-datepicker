@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <DatePicker v-model="dateRange" class="date" />
+    <DatePicker v-model="dateRange" class="date top" />
+    <DatePicker v-model="dateRange" class="date bottom" />
   </div>
 </template>
 
@@ -18,7 +19,22 @@ export default class Home extends Vue {
 }
 </script>
 <style lang="scss">
+.home {
+  height: 100vh;
+  position: relative;
+}
 .date {
+  position: absolute;
   width: 304px;
+
+  &.top {
+    top: 16px;
+    left: 16px;
+  }
+
+  &.bottom {
+    bottom: 16px;
+    left: 16px;
+  }
 }
 </style>
